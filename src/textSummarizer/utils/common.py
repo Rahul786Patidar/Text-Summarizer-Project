@@ -21,7 +21,7 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
         ValueError: if yaml file is empty
         e: empty file
 
-    Returns:
+    Returns: 
         ConfigBox: ConfigBox type
     """
     try:
