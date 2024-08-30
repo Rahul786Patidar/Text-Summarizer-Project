@@ -28,7 +28,7 @@ class ModelTrainer:
             per_device_train_batch_size=1, per_device_eval_batch_size=1,#You're using a batch size of 1 for both training and evaluation. This might work for quick tests, but for larger-scale training, consider increasing the batch size if your hardware allows it.
             weight_decay=0.01, logging_steps=10,
             evaluation_strategy='steps', eval_steps=500, save_steps=1,
-            gradient_accumulation_steps=16
+            gradient_accumulation_steps=5 #I tookes 5 bcoz it 16 takes more memory and reduce speed
         ) 
 
         trainer = Trainer(model=model_pegasus, args=trainer_args,
