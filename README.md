@@ -81,7 +81,7 @@ AWS-CICD-Deployment-with-Github-Actions
 
 
 #3 Create ECR repo to store/save docker image
--Save the URI: 211125580046.dkr.ecr.us-east-1.amazonaws.com/text-s
+-Save the URI: 211125580046.dkr.ecr.ap-south-1.amazonaws.com/text-ss
 
 
 
@@ -115,8 +115,8 @@ AWS_ACCESS_KEY_ID=
 
 AWS_SECRET_ACCESS_KEY=
 
-AWS_REGION = us-east-1
+AWS_REGION = ap-south-1
 
-AWS_ECR_LOGIN_URI = 211125580046.dkr.ecr.us-east-1.amazonaws.com/text-s
+AWS_ECR_LOGIN_URI = 211125580046.dkr.ecr.ap-south-1.amazonaws.com/text-ss
 
 ECR_REPOSITORY_NAME = simple-app
